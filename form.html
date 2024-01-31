@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <base href="http://localhost/DWES/ejercicios/Unidad_8/mvc/view/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario en app Planetario</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+</head>
+
+<body>
+    <header>
+        <div class="content" style="margin-top:40px; margin-bottom:20px"> <img src="img/palatop.svg"></div>
+
+
+        <div id="fondoA" class="completa" style="background-image: url('img/office.jpg');">
+            <div class="cab">
+                <h2>DWES</h2>
+                <h1>Registro de usuario en app Planetario</h1>
+            </div>
+        </div>
+        <h2>Formulario de registro de usuario en la BDD planetario con Validación en servidor</h2>
+    </header>
+
+    <main>
+        <div class="btnhome"><a href="../">[ home ]</a></div>
+        
+        <form action="" method="POST" onsubmit="return validar(this)">
+            <div class="seccion">Datos personales</div>
+            <div class="formfield">
+                <div class="titfield">Nombre</div><label> <input type="text" name="nombre" class="camp" /></label>
+            </div>
+            <div class="formfield">
+                <div class="titfield">Apellido 1</div><label> <input type="text" name="apellido1" class="camp" /></label>
+            </div>      
+
+
+
+            <div class="formfield"><input type="submit" name="enviar" class="camp" /></div>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="content bottom">
+            <img src="img/logo.svg" alt="">
+
+            <div style="position: relative; left:80%; bottom: 30px; "><img src="img/palabottom.svg" alt=""></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
