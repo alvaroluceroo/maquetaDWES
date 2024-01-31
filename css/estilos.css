@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+
+body {
+	/* background-color: #0046e9;  */
+	background-color: #222222;
+	font-family: "Lato", Verdana, "sans-serif";
+	color: #FFFFFF;
+	/* overflow-x: hidden; */
+	/* margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px; */
+}
+
+.columnas {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.columna {
+	width: 50%;
+}
+
+.btn {
+	border-radius: 6px;
+	padding: 15px !important;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+	font-size: 18px !important;
+	border: 1px solid #cccccc;
+	margin-bottom: 15px;
+	text-decoration: none;
+	background-color: rgb(40, 40, 40);
+	color: white;
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.btnhome {
+	position: fixed;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	top: 0px;
+	z-index: 10;
+	left: 0px;
+	text-align: center;
+	height: 20px;
+	background-color: black;
+}
+
+.btnhome a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+
+.moduloplaneta {
+	width: 49%;
+	margin:5px;
+}
+
+.moduloplaneta img {
+	width:100%;
+}
+
+h1,
+h2 {
+	font-family: "Oswald", Verdana;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 45px;
+}
+
+h2 {
+	color: #39a6f4;
+	font-size: 25px;
+}
+
+
+div[id^="fondo"] {
+	background-size: cover !important;
+	z-index: 1;
+}
+
+div.cab {
+	display: block; width: inherit; position: absolute; bottom: 0px; left:20px;
+}
+
+
+.completa {
+	height: 30vh;
+	padding: 0;
+	margin: 0 !important;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+}
+
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+.content.bottom {
+	margin-top: 50px;
+}
+
+nav {
+	height: 0px;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+	.content,
+	html,
+	body {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	h1 {
+		font-size: 25px;
+		width: 98%;
+	}
+
+	.moduloplaneta {
+		width: 47%;
+		margin:5px;
+	}
+	
+}
